@@ -48,23 +48,26 @@ li {
     font-family:Tahoma, sans-serif
 }
 
-.texto-naturesa{
+.natureText{
     width: 44%;;
     margin-left:350px;
     margin-top:240px;
 }
 
-.texto-naturesa h1 {
-    color: #44bd32;
+.natureText h1 {
+    color: #44BD32;
     font-family: 'open sans';
-    font-size:49px;
+    font-size:3rem;
 }
 
-.texto-naturesa p {
-    color:#44bd32;
+.natureText p {
+    color:#44BD32;
+    font-size: 1.33rem;
+    /* font-weight: 600; */
+    
 }
 
-.texto-naturesa button {
+.natureText button {
     background-color:#44bd32;
     color:#f9f9f9;
     font-family:Tahoma, sans-serif;
@@ -79,20 +82,23 @@ li {
     line-height: center;
 }
 
-.texto-naturesa button:hover {
+.natureText button:hover {
     background-color: #67d756;
 }
 
-.container-deito {
+.container-direito {
     width:30%;
     float:right;
     background-color:#44bd32;
     height:100vh;
 }
 
-.container-deito img {
+.container-direito img {
     width:370px;
     position:absolute;
     top:40%;
     right:14%
 }
+
+
+
