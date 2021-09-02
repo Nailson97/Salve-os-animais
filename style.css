@@ -61,6 +61,12 @@ li {
 }
 
 .texto-naturesa p {
+    font-family: Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.texto-naturesa p {
     color:#44bd32;
 }
 
