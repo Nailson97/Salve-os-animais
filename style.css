@@ -15,14 +15,17 @@ html,body{
 
 .container-principal {
     width:100%;
+    display:flex;
+    flex-direction: row;
 }
 
 .container-esquerdo {
     width:70%;
     background-color:#f9f9f9;
+    /* background-color: red; */
     height: 100vh;
-    float:left;
 }
+
 .menu {
     margin-top:60px;
     margin-left:226px;
@@ -49,8 +52,8 @@ li {
 }
 
 .natureText{
-    width: 44%;;
-    margin-left:350px;
+    width: 50%;;
+    margin-left:300px;
     margin-top:240px;
 }
 
@@ -88,7 +91,6 @@ li {
 
 .container-direito {
     width:30%;
-    float:right;
     background-color:#44bd32;
     height:100vh;
 }
@@ -101,4 +103,54 @@ li {
 }
 
 
+@media (max-width: 768px){
+    .container-principal {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-top:60px;
+        margin-left:226px;
+        display: none;
+    }
+
+    .container-direito {
+        width:30%;
+        background-color:#44bd32;
+        height:10vh;
+    }
+
+    .container-direito img {
+        width:550px;
+        position:absolute;
+        top:10%;
+        right:14%
+    }
+    
+    .natureText{
+        width: 100%;;
+        margin-left:140px;
+        margin-top:550px;
+    }
+    
+}
+
+@media (max-width: 425px){
+
+    .container-direito img {
+        width:550px;
+        position:absolute;
+        top:10%;
+        right:0%
+    }
+
+    .natureText{
+        width: 80vw;
+        margin-left:30px;
+        margin-top:550px;
+    }
+    
+}
 
